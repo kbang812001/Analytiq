@@ -1,0 +1,326 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/r"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="Team AnalytiQ"
+            android:textColor="#051573"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/dg" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:text="Deepak Goyal"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="St. Xavier's College\nCEO at RBeI\nFounder of AnalytiQ\nSpecialisation in Finance"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/rr" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:text="Radhika Rathi"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="B.Com M.Com\nAdministrative Officer at RBeI\nCo-Owner of AnalytiQ\nSpecialisation in Management and Accountancy"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/vra" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="187dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="V.Srivardhan"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Manipal Institute of Technology\nSr.Backend Developer\nTeam Head\nFrontend and Backend App Development"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/kmonu" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="187dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Monu Kumar"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="IIT BHU(B.Tech Mining Engg.)\nSr.Backend Developer\nSetup Manager\nProgrammer,Android Developer & Tech Enthusiast"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/babi" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="187dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Babi Mishra"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="University Institute of Technology,B.U\nSr.UI Developer\nUI and UX Team Leader\nJava, UI & UX"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/kbang" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="187dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Komal Bang"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Women Engg. College, Ajmer(B.Tech)\nUI Developer\nMarketing Head\nSpecialization in Programming & Frontend App Development"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/appu" />
+
+            <TextView
+                android:id="@+id/textView00"
+                android:layout_width="268dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Thangadipelli Apoorva"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editTexta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="B.Tech 3rd Year\nAssociate Developer\nSpecialization in C, C++, Java, Python, DBMS, HTML & CSS"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="562dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="188dp"
+                android:layout_height="189dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/pooja" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="187dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="K.Pooja"
+                android:textColor="#070707"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:fontFamily="cursive" />
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:gravity="center_horizontal"
+                android:text="Rungta College of Engg. and Development(BE),Bhilai\nAssociate Developer\nProgrammer,Android Developer & Web Development skills"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

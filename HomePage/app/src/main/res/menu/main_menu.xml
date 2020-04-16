@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Team" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_reply_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate Us"
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help & Feedback"/>
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+    </group>
+</menu>

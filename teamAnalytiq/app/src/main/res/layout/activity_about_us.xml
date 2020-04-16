@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:background="@drawable/edit"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="179dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="160dp"
+                android:gravity="center"
+                android:text="Analytics will be easy with Analysis and IQ"
+                android:textColor="#070707"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:background="@drawable/c"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text=" - VISION -"
+                android:textColor="#FAF6F6"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="A great addition in the Analytical World "
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text=" - MISSION -"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="To provide most efficient financial calculator "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text=" - VALUES -"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Accuracy | Reliable | Easy | Quick | Comfortable"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="716dp"
+            android:background="@drawable/k2"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Welcome to AnalytiQ! So glad you're here."
+                android:textColor="#070707"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="What we are ?"
+                android:textColor="#0B0B0B"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/pg"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="For your convenience, we are providing you calculation App. This is user friendly and performs various kinds of complex calculations. The main purpose of this App is to provide accurate mathematical and financial calculator for the ease of public use."
+                android:textColor="#0B0A0A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Who we are ?"
+                android:textColor="#0E0E0E"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="We are a community of  IT professionals and passionate individuals whose purpose is to revolutionise software design with a passion of creativity while advocating for change in the financial world."
+                android:textColor="#0B0A0A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:gravity="center"
+                android:text="We all come to work every day- to make magic. We dream it- and then do it together reinventing what's possible. We're obsessively passionate about it."
+                android:textColor="#0B0A0A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="This Application is owned by Rajbala Educational Institution Pvt. Ltd."
+                android:textColor="#0B0B0B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

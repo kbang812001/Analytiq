@@ -1,0 +1,2 @@
+rootProject.name='teamAnalytiq'
+include ':app'
